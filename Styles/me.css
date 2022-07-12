@@ -4,7 +4,75 @@ body{
 }
 
 .ultra-container{
-    width: 1000px;
-    margin: 0px, auto;
-    border: 1px solid red;
+    max-width: 1000px;
+    margin: 0px auto;
 }
+
+.big-text{
+    display: flex;
+}
+
+.blue{
+    color: #88A7EB;
+    padding-right: 0.5rem;
+}
+
+.hero{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.hero img{
+   width: 495px;
+   height: auto;
+
+}
+
+.p-container{
+    max-width: 495px;
+    font-size: 1.5rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas:
+    "under post"
+    "work work"
+    ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#under{
+    grid-area: under;
+}
+
+#post{
+    grid-area: post;
+}
+
+#work{
+    grid-area: work;
+}
+
+.qual-box{
+    background-color: #dddddd;
+    border-radius: 10px;
+    padding-top: 0.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.qual-box p{
+    font-size: 1.25rem;
+}
+
+.qual-box h4{
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+    color: #88A7EB
+}
+
