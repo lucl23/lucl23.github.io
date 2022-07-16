@@ -1,0 +1,79 @@
+body{
+    position: relative;
+    top: 10rem;
+}
+
+
+.ultra-container{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.upper-text h5{
+    color: #88A7EB;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.upper-text h2{
+    font-weight: 400;
+}
+
+.upper-text p{
+    font-size: 1rem;
+}
+
+.grid-cont{
+    display: grid;
+    grid-template-areas:
+    "square1 square2"
+    "square3 square4"
+    ;
+    padding-top: 1.75rem;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grimg{
+    width: 395px;
+    height: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sq1{
+    background-image: url(/Resources/img/placeholder-500x500.png);
+    background-size: cover;
+}
+#sq2{
+    background-image: url(/Resources/img/placeholder-500x500.png);
+    background-size: cover;
+}
+#sq3{
+    background-image: url(/Resources/img/placeholder-500x500.png);
+    background-size: cover;
+}
+#sq4{
+    background-image: url(/Resources/img/placeholder-500x500.png);
+    background-size: cover;
+}
+
+.grimg p{
+    color:#88A7EB;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cta{
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.cta h3{
+    font-weight: 400;
+}

@@ -1,0 +1,48 @@
+body{
+    position: relative;
+    top: 10rem;
+}
+
+.ultra-container{
+    max-width: 800px;
+    margin: 0px auto;
+    padding-bottom: 2rem;
+}
+
+#ptop{
+    margin-bottom: 0.25rem;
+}
+.header h3{
+    color: #88A7EB;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+
+#pbot{
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-cont{
+    max-width: 390px;
+}
+
+.img-cont img{
+    width: 390px;
+    height: auto;
+}
+
+.content{
+    max-width: 390px;
+}
+
+.content h5{
+    font-size: 1.15rem;
+}
