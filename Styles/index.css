@@ -21,6 +21,7 @@ body{
 .hi{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 .blue-text{
     margin-top: 10px;
@@ -32,6 +33,10 @@ body{
     margin-bottom: 10px;
 }
 
+#mainimg{
+    display: none;
+}
+
 .buttons{
     display: flex;
     margin-top: 1.5rem;
@@ -40,9 +45,74 @@ body{
 }
 
 
+
 footer{
     position: fixed;
     bottom: 0px;
     padding-bottom: 1rem;
 }
 
+@media only screen and (max-width:400px){
+
+    .container-general{
+        padding: 0;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    body{
+        background-image: none;
+    }
+
+    .hero{
+        height: auto;
+    }
+
+    #mainimg{
+        display: block;
+        position: relative;
+        bottom: 30px;
+        border-bottom: solid 3px;
+        max-width: 100%;
+    }
+    .buttons{
+        margin-top: 1.5rem;
+        max-width: 100%;
+        display: grid;
+        justify-content:center;
+        grid-template-areas: 
+        "dos dos"
+        "uno1 uno2";
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+    #double{
+        grid-area: dos;
+    }
+    #single1{
+        grid-area: uno1;
+    }
+    #single2{
+        grid-area: uno2;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    #b1{
+        width: 300px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .subtitle{
+        margin-bottom: 0px;
+    }
+    footer{
+        display: none;
+
+
+    }
+
+}

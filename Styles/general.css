@@ -57,7 +57,26 @@ nav{
     text-decoration: none;
     font-size: 1.25rem;
     font-family: Ubuntu, sans-serif;
-    padding: 1rem;
+    padding: 1rem 1rem;
     border-style: none;
 
+}
+
+@media only screen and (max-width: 400px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .button{
+        font-size: 0.8rem;
+    }
+
+    .menu{
+        font-size: 0.80rem;
+    }
+    .logo{
+        width: 100px;
+    }
 }
