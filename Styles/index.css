@@ -71,7 +71,7 @@ footer{
     #mainimg{
         display: block;
         position: relative;
-        bottom: 30px;
+        top: 10px;
         border-bottom: solid 3px;
         max-width: 100%;
     }
@@ -94,16 +94,6 @@ footer{
     }
     #single2{
         grid-area: uno2;
-    }
-
-    .button{
-        width: 100%;
-    }
-
-    #b1{
-        width: 300px;
-        font-weight: 600;
-        font-size: 1rem;
     }
 
     .subtitle{

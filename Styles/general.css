@@ -49,10 +49,10 @@ nav{
 }
 
 .button{
-    z-index: 3;
     background-color: #cfeb7c;
     border-radius: 7px;
     box-shadow: none;
+    text-align: center;
     text-shadow: none;
     text-decoration: none;
     font-size: 1.25rem;

@@ -77,3 +77,44 @@ body{
 .cta h3{
     font-weight: 400;
 }
+
+@media only screen and (max-width:400px){
+
+    body{
+        top: 7rem;
+    }
+
+    .ultra-container{
+        padding: 0;
+        max-width: 300px;
+    }
+
+    .upper-text h5{
+        font-size: 1rem;
+    }
+    
+    .upper-text h2{
+        font-size: 1.25rem;
+    }
+
+    .grid-cont{
+        display: grid;
+        grid-template-areas:
+        "square1"
+        "square2"
+        "square3"
+        "square4"
+        ;
+        padding-top: 1.75rem;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    
+    .grimg{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .cta{
+        font-size: 1rem;
+    }
+}

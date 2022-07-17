@@ -113,3 +113,73 @@ body{
 }
 
 
+@media only screen and (max-width:400px){
+
+    body{
+        top: 7rem;
+    }
+
+    .ultra-container{
+        padding: 0;
+        max-width: 300px;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero img{
+        max-width: 300px;
+    }
+
+    .p-container{
+        max-width: 300px;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-areas:
+        "under"
+        "post"
+        "work"
+        ;
+        padding-top: 1rem;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .qual-box p{
+        font-size: 0.8rem;
+    }
+
+    .qual-box{
+        background-color: #dddddd;
+        border-radius: 10px;
+        padding-top: 1.25rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0.5rem;
+    }
+    .qual-box h4{
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .after-text {
+        font-size: 1rem;
+    }
+
+    .skills li{
+        font-size: 1rem;
+    }
+
+    .skills ul{
+        padding: 0;
+    }
+
+    .cta{
+        font-size: 1rem;
+    }
+}

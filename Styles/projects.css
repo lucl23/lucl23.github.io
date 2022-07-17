@@ -30,6 +30,10 @@ body{
     justify-content: space-between;
 }
 
+#toogle1{
+    display: none;
+}
+
 .img-cont{
     max-width: 390px;
 }
@@ -45,4 +49,53 @@ body{
 
 .content h5{
     font-size: 1.15rem;
+}
+
+.cta{
+    color: #88A7EB;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.cta h3{
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width:400px){
+
+    body{
+        top: 7rem;
+    }
+
+    .ultra-container{
+        padding: 0;
+        max-width: 300px;
+    }
+
+    .row{
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+
+    #toogle1{
+        display: block;
+    }
+
+    #toogle2{
+        display: none;
+    }
+
+    .img-cont, .img-cont img, .content{
+        max-width: 300px;
+    }
+
+    #last-cont{
+        margin-bottom: 2rem;
+    }
+
+    .cta{
+        font-size: 1rem;
+    }
 }
